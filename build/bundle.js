@@ -90,10 +90,11 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("const sum = __webpack_require__(/*! ./sum */ \"./src/sum.js\");\r\n\r\nconst total = sum(2, 15);\r\nconsole.log(total);\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sum__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sum */ \"./src/sum.js\");\n\nvar total = Object(_sum__WEBPACK_IMPORTED_MODULE_0__[\"sum\"])(2, 15);\nconsole.log(total);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -101,10 +102,11 @@ eval("const sum = __webpack_require__(/*! ./sum */ \"./src/sum.js\");\r\n\r\ncon
 /*!********************!*\
   !*** ./src/sum.js ***!
   \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: sum */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("const sum = (firstNum, secondNum) => firstNum + secondNum;\r\n\r\nmodule.exports = sum;\r\n\n\n//# sourceURL=webpack:///./src/sum.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nvar sum = function sum(firstNum, secondNum) {\n  return firstNum + secondNum;\n};\n\n\n\n//# sourceURL=webpack:///./src/sum.js?");
 
 /***/ })
 
