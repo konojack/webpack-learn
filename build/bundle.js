@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/image_viewer.js":
+/*!*****************************!*\
+  !*** ./src/image_viewer.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("var image = document.createElement('img');\nimage.src = 'https://picsum.photos/200/300';\ndocument.body.appendChild(image);\n\n//# sourceURL=webpack:///./src/image_viewer.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -94,7 +105,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sum__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sum */ \"./src/sum.js\");\n\nvar total = Object(_sum__WEBPACK_IMPORTED_MODULE_0__[\"sum\"])(2, 15);\nconsole.log(total);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sum__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sum */ \"./src/sum.js\");\n/* harmony import */ var _image_viewer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./image_viewer */ \"./src/image_viewer.js\");\n/* harmony import */ var _image_viewer__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_image_viewer__WEBPACK_IMPORTED_MODULE_1__);\n\n\nvar total = Object(_sum__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(2, 15);\nconsole.log(total);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -102,11 +113,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sum
 /*!********************!*\
   !*** ./src/sum.js ***!
   \********************/
-/*! exports provided: sum */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nvar sum = function sum(firstNum, secondNum) {\n  return firstNum + secondNum;\n};\n\n\n\n//# sourceURL=webpack:///./src/sum.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar sum = function sum(firstNum, secondNum) {\n  return firstNum + secondNum;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (sum);\n\n//# sourceURL=webpack:///./src/sum.js?");
 
 /***/ })
 
