@@ -1,6 +1,7 @@
-import sum from './sum';
-import './image_viewer';
-import '../styles/styles.scss';
+const button = document.createElement('button');
+button.innerText = 'Click Me';
+button.onclick = () => {
+    import('./image_viewer').then(module => module.default());
+}
 
-const total = sum(2, 15);
-console.log(total);
+document.body.appendChild(button);
